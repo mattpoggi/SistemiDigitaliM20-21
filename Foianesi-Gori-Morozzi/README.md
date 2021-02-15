@@ -84,7 +84,7 @@ To use the application you can download the code and open it inside Android Stud
 
 The weights that the Android App uses are uploaded on another platform to save space. If you want to run the application from Android Studio you have to copy the weights following these instructions:
 
- 1. Download the weights from <link_to_add>
+ 1. Download the weights from https://drive.google.com/drive/folders/1CmZqKbzeM0LeIwGD_Hx21b0qa8dKU-Z3?usp=sharing
  2. Open the folder TorchScript_weights
  3. Copy all the weights (files with .pt extension) into eyeDo_Android/app/src/main/assets/
 
