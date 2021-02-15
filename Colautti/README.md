@@ -17,7 +17,7 @@ Similar app used to develop this application: [YOLOv3-CoreML](https://github.com
 [From YOLOv3 to Custom Object Detection](https://colab.research.google.com/drive/1BNajhZAxU_8J8DoK43y2JEJog0l4Hb6X)
 
 ## Before Building the App
-Download the [model](https://www.google.com) and copy it into LALakersAI/Utils/
+Download the [model](https://github.com/danielecolautti/LALakersAI/tree/main/zippedModel) and copy it into LALakersAI/Utils/
 
 ## Example Images
 
