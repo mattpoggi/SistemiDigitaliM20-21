@@ -1,0 +1,64 @@
+Mean time for yuv conversion: 172ms
+Mean time for inference: 15ms
+Mean time for filling input buffer: 0ms
+Mean time for rotationRescale: 0ms
+Mean time for sampling: 0ms
+Mean time for cutting: 74ms
+Mean time for binarize: 8ms
+Mean time for cropping: 1ms
+
+I/System.out: Mean time for filling input buffer: 0ms
+I/System.out: Mean time for inference char 0: 1ms
+I/System.out: Mean time for inference char 1: 0ms
+I/System.out: Mean time for inference char 2: 0ms
+I/System.out: Mean time for inference char 3: 0ms
+    Mean time for inference char 4: 0ms
+I/System.out: Mean time for inference char 5: 0ms
+I/System.out: Mean time for inference char 6: 0ms
+I/System.out: Mean time for inference char 7: 0ms
+I/System.out: Mean time for inference char 8: 0ms
+    Mean time for inference char 9: 0ms
+I/System.out: Mean time for inference char 10: 0ms
+I/System.out: Mean time for inference char 11: 0ms
+I/System.out: Mean time for inference char 12: 0ms
+I/System.out: Mean time for inference char 13: 0ms
+I/System.out: Mean time for inference char 14: 0ms
+
+TIMING PERFECT QR
+zxing con hint: 546829ns
+zxing senza hint: 11417314ns
+
+Network error position 0 = 27
+    Network error position 1 = 7
+    Network error position 2 = 4
+    Network error position 3 = 18
+    Network error position 4 = 6
+    Network error position 5 = 0
+    Network error position 6 = 35
+    Network error position 7 = 9
+    Network error position 8 = 8
+    Network error position 9 = 4
+    Network error position 10 = 8
+    Network error position 11 = 0
+    Network error position 12 = 2
+    Network error position 13 = 2
+    Network error position 14 = 0
+
+    I/System.out: Mean time for inference char 0: 481090ns
+    I/System.out: Mean time for inference char 1: 437666ns
+    I/System.out: Mean time for inference char 2: 431909ns
+        Mean time for inference char 3: 421210ns
+    I/System.out: Mean time for inference char 4: 420702ns
+    I/System.out: Mean time for inference char 5: 446972ns
+    I/System.out: Mean time for inference char 6: 423745ns
+        Mean time for inference char 7: 415878ns
+    I/System.out: Mean time for inference char 8: 416193ns
+    I/System.out: Mean time for inference char 9: 417456ns
+    I/System.out: Mean time for inference char 10: 426255ns
+        Mean time for inference char 11: 431170ns
+    I/System.out: Mean time for inference char 12: 416141ns
+    I/System.out: Mean time for inference char 13: 407883ns
+        Mean time for inference char 14: 425940ns
+
+        avg: 428014ns
+       total inference time 428*15=6420 micros
