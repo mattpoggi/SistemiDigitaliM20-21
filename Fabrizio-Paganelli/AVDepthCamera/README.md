@@ -6,6 +6,12 @@ This is an iOS app merging two features:
 
 The app starts in grayscale mode, just tap on the screen to change model and prediction. *Models can be downloaded using the link below.*
 
+## Authors
+
+## [Filippo Paganelli](https://github.com/FilippoPaganelli)
+
+## [Ginevra Fabrizio](https://github.com/lamebanana)
+
 ## Models
 
 We used MobileNetV2 (224x224 rgb) for both of the two versions. It's been retrained on each of the two datasets to recognise the appropriate label classes.
@@ -38,9 +44,3 @@ Colours dataset preview:
 ## Working app snapshot
 
 ![Snapshot_app](/Fabrizio-Paganelli/AVDepthCamera/images/app_preview.png)
-
-## Authors
-
-## [Filippo Paganelli](https://github.com/FilippoPaganelli)
-
-## [Ginevra Fabrizio](https://github.com/lamebanana)
