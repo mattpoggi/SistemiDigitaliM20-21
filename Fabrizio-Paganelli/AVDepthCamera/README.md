@@ -16,3 +16,6 @@ About the net: [MobileNetV2](https://arxiv.org/abs/1801.04381)
   
  Colours: [Hand Gestures Dataset](https://www.kaggle.com/gti-upm/multimodhandgestrec)
 
+## The Colab we used
+
+[Our colab](https://colab.research.google.com/drive/1NpvKpCy_snJcUu5afDZeTyWdHsZEFMVa#scrollTo=ri3hTd6LRt3v)
