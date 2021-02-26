@@ -41,6 +41,6 @@ Colours dataset preview:
 
 ## Authors
 
-[Filippo Paganelli](https://github.com/FilippoPaganelli)
+## [Filippo Paganelli](https://github.com/FilippoPaganelli)
 
-[Ginevra Fabrizio](https://github.com/lamebanana)
+## [Ginevra Fabrizio](https://github.com/lamebanana)
