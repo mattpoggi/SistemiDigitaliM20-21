@@ -8,9 +8,9 @@ The app starts in grayscale mode, just tap on the screen to change model and pre
 
 ## Authors
 
-## [Filippo Paganelli](https://github.com/FilippoPaganelli)
+### [Filippo Paganelli](https://github.com/FilippoPaganelli)
 
-## [Ginevra Fabrizio](https://github.com/lamebanana)
+### [Ginevra Fabrizio](https://github.com/lamebanana)
 
 ## Models
 
