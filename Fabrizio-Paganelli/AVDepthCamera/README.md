@@ -28,3 +28,4 @@ Our trained models: [here](--------------)
 ## Dataset images
 
 ![Grayscale](/images/grayscale_dataset_preview.png)
+![Colours](/images/colours_dataset_preview.png)
