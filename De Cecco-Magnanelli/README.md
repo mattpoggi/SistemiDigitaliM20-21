@@ -31,6 +31,18 @@ The input shape is 299x299x3 for Xception and 224x224x3 for MobilenetV2.
 
 Finally, these networks have been converted to Tensorflow Lite models using different quantization strategies.
 
+## Colab notebooks
+
+utils.py is used in Google Colab notebooks, so it has to be uploaded in your drive.
+
+Improve dataset: https://colab.research.google.com/drive/1Kmwja5ppzjvLZ144FriEi2GjlpPIyqQE?usp=sharing
+
+MobileNetV2: https://drive.google.com/file/d/1jFnHNSIFCM7mvvtXeK6ntZa-UGrmbNRU/view?usp=sharing
+
+Xception: https://colab.research.google.com/drive/1RiEtFS-H07G3uNjbJBjxA3BGzWiFobIK?usp=sharing
+
+Convert to tflite: https://colab.research.google.com/drive/1NbIkMTxhTYf4V4ifbTDNri2F9VoSlrpc?usp=sharing
+
 ## Performance
 We have tested the quantized models on Huawei p20 lite and Samsung Galaxy S10e using not only CPU but also the following delegates:
 -	GPU
@@ -75,3 +87,7 @@ To properly run the app, you can download the models [here](https://bit.ly/3uxfn
 To load and crop an image: https://github.com/ArthurHub/Android-Image-Cropper
 
 Shades of Gray color constancy C++: https://github.com/pi19404/m19404/tree/master/ColorConstancy
+
+## Screenshots
+
+<img src="screenshots/principale.jpeg" width="25%" height="25%"> <img src="screenshots/ritaglio.jpeg" width="25%" height="25%"> <img src="screenshots/scan.jpeg" width="25%" height="25%">
