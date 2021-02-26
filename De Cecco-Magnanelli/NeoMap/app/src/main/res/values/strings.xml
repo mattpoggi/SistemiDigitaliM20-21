@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">NeoMap</string>
+    <string name="take_image">take image</string>
+    <string name="tfe_ic_model" translatable="false">Model:</string>
+    <string name="tfe_ic_gpu_quant_error" translation_description="Error regarding GPU support for Quant models[CHAR_LIMIT=60]">GPU does not yet supported quantized models.</string>
+    <string-array name="tfe_ic_models" translatable="false">
+        <item>MobileNet</item>
+        <item>Float16_MobileNet</item>
+        <item>Int8_MobileNet</item>
+        <item>Xception</item>
+        <item>Float16_Xception</item>
+        <item>Int8_Xception</item>
+    </string-array>
+    <string name="tfe_ic_device" translatable="false">Device:</string>
+    <string-array name="tfe_ic_devices" translatable="false">
+        <item>XNNPACK</item>
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+    <string-array name="names">
+        <item>Benign keratosis</item>
+        <item>Vascular lesion</item>
+        <item>Basal cell carcinoma</item>
+        <item>Squamous cell carcinoma</item>
+        <item>Actinic keratosis</item>
+        <item>Melanoma</item>
+        <item>Dermatofibroma</item>
+        <item>Melanocytic nevus</item>
+    </string-array>
+    <string-array name="links">
+        <item>https://en.wikipedia.org/wiki/Seborrheic_keratosis</item>
+        <item>https://en.wikipedia.org/wiki/Vascular_tumor</item>
+        <item>https://en.wikipedia.org/wiki/Basal-cell_carcinoma</item>
+        <item>https://en.wikipedia.org/wiki/Squamous_cell_carcinoma</item>
+        <item>https://en.wikipedia.org/wiki/Actinic_keratosis</item>
+        <item>https://en.wikipedia.org/wiki/Melanoma</item>
+        <item>https://en.wikipedia.org/wiki/Dermatofibroma</item>
+        <item>https://en.wikipedia.org/wiki/Melanocytic_nevus</item>
+    </string-array>
+
+
+</resources>

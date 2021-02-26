@@ -1,0 +1,13 @@
+[
+{
+  "directory": "E:/senza_resize_input/NeoMap/app/.cxx/cmake/debug/x86",
+  "command": "C:\\Users\\loren\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android24 --gcc-toolchain=C:/Users/loren/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/loren/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -isystem E:/tools/OpenCV-android-sdk/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11 -o CMakeFiles\\native-lib.dir\\opencv-utils.cpp.o -c E:\\senza_resize_input\\NeoMap\\app\\src\\main\\cpp\\opencv-utils.cpp",
+  "file": "E:\\senza_resize_input\\NeoMap\\app\\src\\main\\cpp\\opencv-utils.cpp"
+},
+
+{
+  "directory": "E:/senza_resize_input/NeoMap/app/.cxx/cmake/debug/x86",
+  "command": "C:\\Users\\loren\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android24 --gcc-toolchain=C:/Users/loren/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/loren/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -isystem E:/tools/OpenCV-android-sdk/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11 -o CMakeFiles\\native-lib.dir\\native-lib.cpp.o -c E:\\senza_resize_input\\NeoMap\\app\\src\\main\\cpp\\native-lib.cpp",
+  "file": "E:\\senza_resize_input\\NeoMap\\app\\src\\main\\cpp\\native-lib.cpp"
+}
+]
