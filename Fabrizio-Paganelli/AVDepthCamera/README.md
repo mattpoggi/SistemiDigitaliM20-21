@@ -27,5 +27,10 @@ Our trained models: [here](--------------)
 
 ## Dataset images
 
+Grayscale dataset preview:
+
 ![Grayscale](/Fabrizio-Paganelli/AVDepthCamera/images/grayscale_dataset_preview.png)
+
+Colours dataset preview:
+
 ![Colours](/Fabrizio-Paganelli/AVDepthCamera/images/colours_dataset_preview.png)
