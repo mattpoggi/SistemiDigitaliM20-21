@@ -10,3 +10,5 @@ We used MobileNetV2 (224x224 rgb) for both of the two versions. It's been retrai
 
 ## Datasets
 
+  Colours: https://www.kaggle.com/adeshdalvi41/hand-signs
+  Grayscale: https://www.kaggle.com/gti-upm/multimodhandgestrec
