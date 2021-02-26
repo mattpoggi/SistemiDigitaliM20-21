@@ -12,7 +12,7 @@ We used MobileNetV2 (224x224 rgb) for both of the two versions. It's been retrai
 
 About the net: [MobileNetV2](https://arxiv.org/abs/1801.04381)
 
-Our trained models: [here](--------------)
+Our trained models: [here](https://drive.google.com/drive/folders/1GT8UrlIU3_3XRNL_Poii4Mz_-IT3YuA8?usp=sharing)
 (drag the models and drop them in Xcode workspace)
 
 ## Datasets
