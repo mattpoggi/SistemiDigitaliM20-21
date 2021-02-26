@@ -34,3 +34,7 @@ Grayscale dataset preview:
 Colours dataset preview:
 
 ![Colours](/Fabrizio-Paganelli/AVDepthCamera/images/colours_dataset_preview.png)
+
+## Working app snapshot
+
+![Snapshot_app](/Fabrizio-Paganelli/AVDepthCamera/images/app_preview.png)
