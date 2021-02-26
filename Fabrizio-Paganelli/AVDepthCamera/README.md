@@ -38,3 +38,9 @@ Colours dataset preview:
 ## Working app snapshot
 
 ![Snapshot_app](/Fabrizio-Paganelli/AVDepthCamera/images/app_preview.png)
+
+## Authors
+
+[Filippo Paganelli](https://github.com/FilippoPaganelli)
+
+[Ginevra Fabrizio](https://github.com/lamebanana)
