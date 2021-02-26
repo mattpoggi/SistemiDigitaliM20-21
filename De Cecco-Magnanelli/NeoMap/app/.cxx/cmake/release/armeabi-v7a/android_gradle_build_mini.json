@@ -1,0 +1,25 @@
+{
+  "buildFiles": [
+    "E:\\senza_resize_input\\NeoMap\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "E:\\tools\\OpenCV-android-sdk\\sdk\\native\\jni\\OpenCVConfig-version.cmake",
+    "E:\\tools\\OpenCV-android-sdk\\sdk\\native\\jni\\OpenCVConfig.cmake",
+    "E:\\tools\\OpenCV-android-sdk\\sdk\\native\\jni\\abi-armeabi-v7a\\OpenCVConfig.cmake",
+    "E:\\tools\\OpenCV-android-sdk\\sdk\\native\\jni\\abi-armeabi-v7a\\OpenCVModules.cmake",
+    "E:\\tools\\OpenCV-android-sdk\\sdk\\native\\jni\\abi-armeabi-v7a\\OpenCVModules-release.cmake",
+    "C:\\Users\\loren\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\loren\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\loren\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\senza_resize_input\\NeoMap\\app\\.cxx\\cmake\\release\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\loren\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"E:\\senza_resize_input\\NeoMap\\app\\.cxx\\cmake\\release\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-armeabi-v7a": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Users\\loren\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\senza_resize_input\\NeoMap\\app\\.cxx\\cmake\\release\\armeabi-v7a\" native-lib",
+      "abi": "armeabi-v7a",
+      "output": "E:\\senza_resize_input\\NeoMap\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libnative-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}
