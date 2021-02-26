@@ -23,5 +23,5 @@ Our trained models: [here](--------------)
 
 ## The Colab we used
 
-[Our colab](https://colab.research.google.com/drive/1NpvKpCy_snJcUu5afDZeTyWdHsZEFMVa#scrollTo=ri3hTd6LRt3v)
+[Our colab](https://colab.research.google.com/drive/1NpvKpCy_snJcUu5afDZeTyWdHsZEFMVa#scrollTo=ri3hTd6LRt3v) for any question about the code, don't mind contacting us.
 
