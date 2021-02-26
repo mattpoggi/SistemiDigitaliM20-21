@@ -8,7 +8,7 @@ This is an iOS app merging two features:
 
 We used MobileNetV2 (224x224 rgb) for both of the two versions. It's been retrained on each of the two datasets to recognise the appropriate label classes.
 
-About the net: [MobileNetV2]https://arxiv.org/abs/1801.04381
+About the net: [MobileNetV2] https://arxiv.org/abs/1801.04381
 
 ## Datasets
 
