@@ -1,3 +1,12 @@
 # AVDepthCamera
 
-This is an iOS app merging two features: a colour camera that uses a Core ML model for predicting number gestures (0 to 5).
+This is an iOS app merging two features:
+  - a colour camera that uses a Core ML model for predicting number gestures (0 to 5);
+  - a grayscale camera with a Core ML Model for predicting three hand gestures: *fist, palm, ok.*
+
+## Models
+
+We used MobileNetV2 (224x224 rgb) for both of the two versions. It's been retrained on each of the two datasets to recognise the appropriate label classes.
+
+## Datasets
+
