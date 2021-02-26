@@ -11,6 +11,7 @@ The app starts in grayscale mode, just tap on the screen to change model and pre
 We used MobileNetV2 (224x224 rgb) for both of the two versions. It's been retrained on each of the two datasets to recognise the appropriate label classes.
 
 About the net: [MobileNetV2](https://arxiv.org/abs/1801.04381)
+
 Our trained models: [here](--------------)
 (drag the models and drop them in Xcode workspace)
 
