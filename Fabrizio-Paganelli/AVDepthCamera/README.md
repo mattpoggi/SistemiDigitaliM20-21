@@ -14,5 +14,5 @@ About the net: [MobileNetV2](https://arxiv.org/abs/1801.04381)
 
  [Colours](https://www.kaggle.com/adeshdalvi41/hand-signs)
   
- [Grayscale](https://www.kaggle.com/gti-upm/multimodhandgestrec)
+ [Hand Gestures Dataset](https://www.kaggle.com/gti-upm/multimodhandgestrec)
 
