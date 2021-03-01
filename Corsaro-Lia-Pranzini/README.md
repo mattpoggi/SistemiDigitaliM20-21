@@ -2,7 +2,7 @@
 ## Android application for calculating a depth image from two stereo images using OpenCV and neural network (TensorFlow Lite model)
 
 ## Authors
-[Lucrezia Corsaro](https://github.com/LucreziaCorsaro), [Salvatore Lia](https://github.com/SalvatoreLia), Mattia Pranzini(https://github.com/MattiaPranzini)
+[Lucrezia Corsaro](https://github.com/LucreziaCorsaro), [Salvatore Lia](https://github.com/SalvatoreLia), [Mattia Pranzini](https://github.com/MattiaPranzini)
 
 ## Instructions for opening project
 - Installing Android Studio
