@@ -6,7 +6,7 @@ This is an Android app which recognises emotions from facial images in two diffe
 ![Main Emotions](/Bari-Lanzoni/Images/Emotions7.jpg)
 
 - valence and arousal values from Russel's dimensional model
-![Emotion Wheel](/Bari-Lanzoni/The-2-D-Emotion-Wheel.png)
+![Emotion Wheel](/Bari-Lanzoni/Images/The-2-D-Emotion-Wheel.png)
 
 ## Authors
 
