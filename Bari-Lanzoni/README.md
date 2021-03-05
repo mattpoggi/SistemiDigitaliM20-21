@@ -20,7 +20,6 @@ We used MobileNetV2 (123x123 rgb) both for dimensional model (one for valence an
 
 About the net: [MobileNetV2](https://arxiv.org/abs/1801.04381)
 
-
 ## Dataset
 
 [AffectNet: A Database for Facial Expression, Valence, and Arousal Computing in the Wild](http://mohammadmahoor.com/affectnet/)
