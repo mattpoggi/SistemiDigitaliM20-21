@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EmotionHub</string>
+    <string name="carica_foto">Carica foto</string>
+    <string name="maiemozionato">mAIemozionato</string>
+    <string name="scatta_foto">scatta foto</string>
+    <string name="acquisisci_foto">acquisisci foto</string>
+    <string name="face">face</string>
+    <string name="emotionhub">EmotionHub</string>
+    <string name="logo">logo</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="carica_dalla_galleria">Carica dalla Galleria</string>
+    <string name="_5">5</string>
+</resources>
