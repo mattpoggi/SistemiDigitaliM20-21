@@ -1,0 +1,11 @@
+Totale immagini etichettate:
+1155
+
+Split per training (90%):
+1030
+
+Split per testing (10%):
+125
+
+Razze:
+10

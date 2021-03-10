@@ -1,0 +1,2 @@
+model_checkpoint_path: "DBR1.9.8-8000"
+all_model_checkpoint_paths: "DBR1.9.8-8000"
