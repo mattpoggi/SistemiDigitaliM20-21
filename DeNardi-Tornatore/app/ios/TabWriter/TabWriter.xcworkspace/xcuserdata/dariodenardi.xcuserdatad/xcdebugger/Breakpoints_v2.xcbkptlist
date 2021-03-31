@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B9802341-9C98-46D2-B6C5-AEF15A27F2A7"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7264053-2C19-441D-A42A-7BFA3EC19B69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TabWriter/Controllers/SettingsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D7264053-2C19-441D-A42A-7BFA3EC19B69 - 14fab57e886c78dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabWriter.SettingsViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TabWriter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dariodenardi/Documents/Progetti/TabWriter/TabWriter/Controllers/SettingsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "3585">
+               </Location>
+               <Location
+                  uuid = "D7264053-2C19-441D-A42A-7BFA3EC19B69 - 14fab57e886c78dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabWriter.SettingsViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TabWriter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dariodenardi/Documents/Progetti/TabWriter/TabWriter/Controllers/SettingsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "4150">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,30 @@
+\BOOKMARK [0][-]{chapter*.2}{Introduzione}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Chitarra}{}% 2
+\BOOKMARK [1][-]{subsection.1.0.1}{Corde}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.0.2}{Tasti}{subsection.1.0.1}% 4
+\BOOKMARK [2][-]{subsection.1.0.3}{Tab}{subsection.1.0.1}% 5
+\BOOKMARK [0][-]{chapter.2}{Trasformata a Q Costante}{}% 6
+\BOOKMARK [0][-]{chapter.3}{Architettura e addestramento del modello}{}% 7
+\BOOKMARK [1][-]{section.3.1}{Machine learning}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.2}{Librerie utilizzate}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.3}{Set dati GuitarSet}{chapter.3}% 10
+\BOOKMARK [2][-]{subsection.3.3.1}{Ricavare le tab dai file .jams}{section.3.3}% 11
+\BOOKMARK [2][-]{subsection.3.3.2}{Ricavare le immagini dai file audio}{section.3.3}% 12
+\BOOKMARK [2][-]{subsection.3.3.3}{Pre-elaborare i dati}{section.3.3}% 13
+\BOOKMARK [1][-]{section.3.4}{Modello della rete}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.4.1}{Uso di Keras}{section.3.4}% 15
+\BOOKMARK [2][-]{subsection.3.4.2}{Addestramento del modello}{section.3.4}% 16
+\BOOKMARK [1][-]{section.3.5}{Valutazione del modello}{chapter.3}% 17
+\BOOKMARK [0][-]{chapter.4}{Implementazione su dispositivo Embedded}{}% 18
+\BOOKMARK [1][-]{section.4.1}{Conversione del modello da Keras a Tensorflow Lite}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.2}{Sviluppo applicazione Android}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.2.1}{Sviluppo applicazione con Java 1.8 e Android Studio 4.1.2}{section.4.2}% 21
+\BOOKMARK [2][-]{subsection.4.2.2}{Pre-elaborazione dell'audio}{section.4.2}% 22
+\BOOKMARK [2][-]{subsection.4.2.3}{Implementazione di Tensorflow Lite}{section.4.2}% 23
+\BOOKMARK [1][-]{section.4.3}{Sviluppo applicazione iOS}{chapter.4}% 24
+\BOOKMARK [2][-]{subsection.4.3.1}{Conversione del modello da Keras a CoreML}{section.4.3}% 25
+\BOOKMARK [2][-]{subsection.4.3.2}{Sviluppo applicazione con Swift 5 e Xcode 12}{section.4.3}% 26
+\BOOKMARK [2][-]{subsection.4.3.3}{Uso di un server per l'uso della libreria librosa}{section.4.3}% 27
+\BOOKMARK [2][-]{subsection.4.3.4}{Implementazione di Tensorflow Lite}{section.4.3}% 28
+\BOOKMARK [2][-]{subsection.4.3.5}{Installazione su dispositivo fisico}{section.4.3}% 29
+\BOOKMARK [0][-]{chapter.5}{Conclusioni}{}% 30

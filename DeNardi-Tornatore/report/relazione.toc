@@ -1,0 +1,32 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {chapter}{Introduzione}{1}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Chitarra}{3}{chapter.1}%
+\contentsline {subsection}{\numberline {1.0.1}Corde}{4}{subsection.1.0.1}%
+\contentsline {subsection}{\numberline {1.0.2}Tasti}{4}{subsection.1.0.2}%
+\contentsline {subsection}{\numberline {1.0.3}Tab}{5}{subsection.1.0.3}%
+\contentsline {chapter}{\numberline {2}Trasformata a Q Costante}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Architettura e addestramento del modello}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Machine learning}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Librerie utilizzate}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Set dati GuitarSet}{10}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Ricavare le tab dai file .jams}{11}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Ricavare le immagini dai file audio}{15}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Pre-elaborare i dati}{17}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Modello della rete}{20}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Uso di Keras}{21}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Addestramento del modello}{26}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Valutazione del modello}{28}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Implementazione su dispositivo Embedded}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conversione del modello da Keras a Tensorflow Lite}{31}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Sviluppo applicazione Android}{32}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Sviluppo applicazione con Java 1.8 e Android Studio 4.1.2}{32}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Pre-elaborazione dell'audio}{34}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Implementazione di Tensorflow Lite}{36}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Sviluppo applicazione iOS}{37}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Conversione del modello da Keras a CoreML}{37}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Sviluppo applicazione con Swift 5 e Xcode 12}{41}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Uso di un server per l'uso della libreria librosa}{43}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Implementazione di Tensorflow Lite}{44}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Installazione su dispositivo fisico}{46}{subsection.4.3.5}%
+\contentsline {chapter}{\numberline {5}Conclusioni}{47}{chapter.5}%
