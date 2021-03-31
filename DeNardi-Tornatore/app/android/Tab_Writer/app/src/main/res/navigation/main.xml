@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.unibo.tab_writer.layout.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_record"
+        android:name="com.unibo.tab_writer.layout.RecordFragment"
+        android:label="@string/nav_record"
+        tools:layout="@layout/fragment_record" >
+        <action
+            android:id="@+id/action_fragment_record_to_fragment_tab_view"
+            app:destination="@id/nav_tab"
+            app:exitAnim="@anim/fade_out"
+            app:enterAnim="@anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="com.unibo.tab_writer.layout.TabListFragment"
+        android:label="@string/nav_list"
+        tools:layout="@layout/fragment_tab_list" >
+        <action
+            android:id="@+id/action_fragment_tab_list_to_fragment_tab_view"
+            app:destination="@id/nav_tab"
+            app:exitAnim="@anim/fade_out"
+            app:enterAnim="@anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.unibo.tab_writer.layout.InfoFragment"
+        android:label="@string/nav_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/nav_tab"
+        android:name="com.unibo.tab_writer.layout.TabViewFragment"
+        android:label="Guitar Tab"
+        tools:layout="@layout/fragment_tab_view" />
+</navigation>

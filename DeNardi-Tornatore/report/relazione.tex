@@ -1,0 +1,288 @@
+\documentclass[12pt,a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{graphicx}
+\usepackage[italian]{babel}
+\usepackage{fixltx2e,bold-extra,geometry,
+    amssymb,amsmath,mathtools, microtype,url,cite}
+\usepackage[bookmarks=true, hidelinks, pdftitle={
+RELAZIONE FINALE SISTEMI DIGITALI M},
+pdfauthor={De Nardi-Tornatore}]{hyperref}
+% \pagestyle{headings}
+\graphicspath{{images/}}
+
+\usepackage{float} %use H in pictures
+
+\usepackage{hyperref} % link color
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,   
+    urlcolor=blue,
+}
+
+\usepackage{pgfplots} % graphics
+
+%%%%%%%%%%%%%%%%% Python Code %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Default fixed font does not support bold face
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{8} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{8} % for normal
+
+% Custom colors
+\usepackage{color}
+\definecolor{deepblue}{rgb}{0.45,0.95,0.36}
+\definecolor{deepred}{rgb}{0,0,0}
+\definecolor{deepgreen}{rgb}{0.67,0.31,0.31}
+\definecolor{deepblack}{rgb}{0.11,0.11,0.11}
+\definecolor{lightblue}{rgb}{0.77, 0.89, 0.93}
+\definecolor{codeblack}{rgb}{0.20,0.20,0.20}
+\definecolor{codered}{rgb}{1,0.6,0.6}
+\definecolor{codelightblue}{rgb}{0.6,0.6,0.6}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+
+
+\usepackage{listings}
+
+% Python style for highlighting
+\newcommand\pythonstyle{\lstset{
+	backgroundcolor=\color{codeblack},
+	language=Python,
+	basicstyle=\fontsize{8}{8}\ttm\color{white},
+	morekeywords={self},
+	keywordstyle=\fontsize{8}{8}\ttb\color{deepblue},
+	emph={MyClass,__init__},
+	emphstyle=\fontsize{8}{8}\ttb\color{codered},
+	stringstyle=\fontsize{8}{8}\ttm\color{deepgreen},
+	commentstyle=\fontsize{8}{8}\ttm\color{codelightblue},
+	breaklines=true,
+	frameround=ftff,
+	frame=single,
+	showstringspaces=false,
+	numbers=left,
+	numberstyle=\ttm\color{codegray},
+	stepnumber=1,
+	numbersep=8pt,
+    belowcaptionskip=5em,
+    belowskip=3em
+}}
+
+\makeatletter
+\lst@CCPutMacro
+    \lst@ProcessOther {"2D}{\lst@ttfamily{-{}}{-}}
+    \@empty\z@\@empty
+\makeatother
+
+\makeatletter
+\lst@CCPutMacro
+    \lst@ProcessOther {"3C}{\lst@ttfamily{<{}}{<}}
+    \@empty\z@\@empty
+\makeatother
+
+\makeatletter
+\lst@CCPutMacro
+    \lst@ProcessOther {"3E}{\lst@ttfamily{>{}}{>}}
+    \@empty\z@\@empty
+\makeatother
+
+% Python environment
+\lstnewenvironment{python}[1][]
+{
+	\pythonstyle
+	\lstset{#1}
+}
+{}
+
+% Python for external files
+\newcommand\pythonexternal[2][]{{
+		\pythonstyle
+		\lstinputlisting[#1]{#2}}}
+
+% Python for inline
+\newcommand\pythoninline[1]{{\pythonstyle\lstinline!#1!}}
+
+%%%%%%%%%%%%%%%%% Normal Text Code %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% normal text style for highlighting
+\newcommand\textnormalstyle{\lstset{
+		backgroundcolor=\color{codeblack},
+		basicstyle=\fontsize{8}{8}\ttm\color{white},
+		keywordstyle=\fontsize{8}{8}\ttm\color{white},
+		emphstyle=\fontsize{8}{8}\ttm\color{white},    % Custom highlighting style
+		stringstyle=\fontsize{8}{8}\ttm\color{white},
+		commentstyle=\fontsize{8}{8}\ttm\color{white},
+		breaklines=true,
+		showstringspaces=false
+}}
+
+% txt for external files
+\newcommand\textexternal[2][]{{
+		\textnormalstyle
+		\lstinputlisting[#1]{#2}}}
+		
+%%%%%%%%%%%%%%%%% Swift Code %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\lstdefinelanguage{swift}
+{
+  keywords=[1]{UInt8, Float32, Bool, Bundle, UIViewController, MemoryLayout, Data, UnsafeMutableBufferPointer},
+  keywords=[2]{
+    open,catch,@escaping,nil,throws,func,if,then,else,for,in,while,do,switch,case,default,where,break,continue,fallthrough,return,
+    typealias,struct,class,enum,protocol,var,func,let,get,set,willSet,didSet,inout,init,deinit,extension,
+    subscript,prefix,operator,infix,postfix,precedence,associativity,left,right,none,convenience,dynamic,
+    final,lazy,mutating,nonmutating,optional,override,required,static,unowned,safe,weak,internal,
+    private,public,is,as,self,unsafe,dynamicType,true,false,nil,Type,Protocol,try,guard
+  },
+  keywords=[3]{copy, invoke, allocateTensors, data},
+  keywords=[4]{main,path,memcpy,append,allocate,size,copyBytes},
+  keywords=[5]{loadModel},
+  keywords=[6]{Interpreter,TfliteModel},
+  morecomment=[l]{//}, % l is for line comment
+  morecomment=[s]{/*}{*/}, % s is for start and end delimiter
+  morestring=[b]", % defines that strings are enclosed in double quotes
+}
+
+\definecolor{lightblue}{rgb}{0.24,0.46,0.53}
+\definecolor{lightgreen}{rgb}{0.40,0.63,0.59}
+\definecolor{lightgreen2}{rgb}{0.51,0.71,0.67}
+\definecolor{pink}{rgb}{0.86,0.43,0.62}
+\definecolor{lightpurple}{rgb}{0.70,0.60,0.82}
+\definecolor{purple}{rgb}{0.53,0.41,0.71}
+\definecolor{string}{rgb}{0.92,0.47,0.42}
+\definecolor{comment}{rgb}{0.44,0.48,0.52}
+
+\newcommand\swiftstyle{\lstset{
+  backgroundcolor=\color{codeblack},
+  language=swift,
+  extendedchars=true,
+  basicstyle=\fontsize{8}{8}\ttm\color{white},
+  keywordstyle=[1]\fontsize{8}{8}\ttb\color{lightpurple},
+  keywordstyle=[2]\fontsize{8}{8}\ttb\color{pink},
+  keywordstyle=[3]\fontsize{8}{8}\ttb\color{lightgreen},
+  keywordstyle=[4]\fontsize{8}{8}\ttb\color{purple},
+  keywordstyle=[5]\fontsize{8}{8}\ttb\color{lightblue},
+  keywordstyle=[6]\fontsize{8}{8}\ttb\color{lightgreen2},
+  stringstyle=\fontsize{8}{8}\ttm\color{string},
+  commentstyle=\fontsize{8}{8}\ttm\color{comment},
+  breaklines=true,
+  frameround=ftff,
+  frame=single,
+  showspaces=false,
+  showstringspaces=false,
+  numbers=left,
+  numberstyle=\ttm\color{codegray},
+  numbersep=9pt,
+  tabsize=3,
+  showtabs=false,
+  belowskip=3em
+}}
+
+% swift for external files
+\newcommand\swiftexternal[2][]{{
+		\swiftstyle
+		\lstinputlisting[#1]{#2}}}
+
+%%%%%%%%%%%%%%%%% New Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\newcommand{\intentblankpage}{
+%     Leaves a blank page
+    \newpage
+    \null
+    \vfill
+    \thispagestyle{empty}
+    \begin{center}
+%         \textit{This page intentionally left blank.}
+        \textit{Questa pagina \`e lasciata intenzionalmente bianca.}
+    \end{center}
+    \newpage
+}
+% 
+% Writes intentionally blank page when there is a \newpage on the left page of
+% a book.
+\makeatletter
+    \def\cleardoublepage{\clearpage%
+        \if@twoside
+            \ifodd\c@page\else
+                \vspace*{\fill}
+                \hfill
+                \begin{center}
+%                     \textit{This page intentionally left blank.}
+                    \textit{}
+                \end{center}
+                \thispagestyle{empty}
+                \newpage
+                \if@twocolumn\hbox{}\newpage\fi
+            \fi
+        \fi
+    }
+\makeatother
+%
+% Length to set margins for 65 chars
+\newlength{\sixtyfivecharwidth}
+\settowidth{\sixtyfivecharwidth}{
+    \normalfont abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz1234567890123}
+% 
+%Integral with the limit below(mathrlap)
+% \newcommand{\intlimr}[1]{\ensuremath{\int \limits_{\mathrlap{#1}}}}
+% 
+% This redefine could cause big issues! See: 
+% http://tex.stackexchange.com/questions/248421/use-mathclap-as-default-in-limits-of-integration
+% \let\oldlimits\limits
+% \def\limits_#1{\oldlimits_{\mathclap{#1}}}
+\def\mclimits_#1{\limits_{\mathclap{#1}}}
+%%%%%%%%%%%%%%%% End New Commands %%%%%%%%%%%%
+
+\begin{document}
+    \pagenumbering{Roman}
+    \input{./titlepage}
+    
+    \tableofcontents
+    
+    \chapter*{Introduzione} \pagenumbering{arabic}
+    \addcontentsline{toc}{chapter}{Introduzione}
+    \label{CH:Intro}
+    \input{./introduzione}
+    
+    \chapter{Chitarra}
+    \label{CH:Teoria}
+    \input{./capI}
+    
+    \chapter{Trasformata a Q Costante}
+    \label{CH:Teoria}
+    \input{./capII}
+    
+    \chapter{Architettura e addestramento del modello}
+    \label{CH:Val_num}
+    \input{./capIII}
+    
+    \chapter{Implementazione su dispositivo Embedded}
+    \label{CH:Val_num}
+    \input{./capIV}
+    
+    \chapter{Conclusioni}
+    \label{CH:Concl}
+    \input{./conclusioni}
+    
+%     \nocite{*}
+    \bibliographystyle{IEEEtran}
+    %%%%%%%%%%% Example 1%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{thebibliography}{100}  % 100 is a random guess of the total number of %references
+    
+    \bibitem{HK} \textit{Chitarra classica}. (s.d.). Wikipedia, l'enciclopedia libera. Ultimo accesso: 28 febbraio 2021, https://it.wikipedia.org/wiki/Chitarra
+    
+    \bibitem{HK} \textit{I tasti della chitarra}. (s.d.). TestoeAccordi. Ultimo accesso: 26 febbraio 2021, https://www.testoeaccordi.it/menu/tasti.htm
+    
+    \bibitem{HK} \textit{Note manico chitarra} [Image]. (s.d.). Videocorsochitarra. Ultimo accesso: 27 febbraio 2021, https://videocorsochitarra.it/note-manico-chitarra/
+    
+    \bibitem{HK} Savage. N. (s.d.). \textit{Come Leggere Tablature per Chitarra}. Wikihow. https://www.wikihow.it/Leggere-Tablature-per-Chitarra
+    	
+    \bibitem{Boney96} Q. Xi, R. Bittner, J. Pauwels, X. Ye, and J. P. Bello, "Guitarset: A Dataset for Guitar Transcription", \emph{in 19th International Society for Music Information Retrieval Conference}, Paris, France, Sept. 2018.
+    
+    \bibitem{MG} Note Frequency Chart (Download) [Image], Soundonsound.com, Dec 03, 2018 11:32 am.
+    
+     \bibitem{HK} \textit{Machine Learning e principio di funzionamento}. (s.d.). Lorenzo Govoni Business e Tecnologia Ultimo accesso: 24 marzo 2021, https://www.lorenzogovoni.com/machine-learning-e-funzionamento/
+    
+    \bibitem{HK} Drexel University, ExCITe Center, \emph{Expressive and Creative Interaction Technologies}, NEMISIG 2019
+    
+    \bibitem{HK} \textit{Utilizza un modello TensorFlow Lite per inferenza con ML Kit su iOS}. (s.d.). Firebase. Ultimo accesso: 03 marzo 2021, https://firebase.google.com/docs/ml-kit/ios/use-custom-models
+
+	\end{thebibliography}
+	%%%%%%%%%%%%% end %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
