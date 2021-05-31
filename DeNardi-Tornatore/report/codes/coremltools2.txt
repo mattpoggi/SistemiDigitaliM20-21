@@ -1,1 +1,0 @@
-TypeError: argument of type 'NoneType' is not iterable
