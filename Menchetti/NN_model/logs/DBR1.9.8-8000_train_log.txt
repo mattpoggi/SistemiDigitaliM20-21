@@ -1,9 +1,0 @@
-number of trainable parameters: 321622
-step:1000/8000 | loss:0.003205 | elapsed time:  2m:25s
-step:2000/8000 | loss:0.000762 | elapsed time:  4m:43s
-step:3000/8000 | loss:0.000274 | elapsed time:  7m: 1s
-step:4000/8000 | loss:0.000132 | elapsed time:  9m:18s
-step:5000/8000 | loss:0.000072 | elapsed time: 11m:39s
-step:6000/8000 | loss:0.000036 | elapsed time: 13m:57s
-step:7000/8000 | loss:0.000020 | elapsed time: 16m:21s
-Training ended!
