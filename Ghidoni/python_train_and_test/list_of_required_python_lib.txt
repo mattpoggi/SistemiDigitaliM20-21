@@ -1,0 +1,7 @@
+You can install the dependency in a virtual-env using pip.
+Tensorflow  1.15 
+Tensorflow-lite  2.0.0 
+Numpy  1.19.3  
+Opencv  4.4.0.46 
+Qrcode  6.1 
+Pillow  8.0.1

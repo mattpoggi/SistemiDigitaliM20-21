@@ -1,0 +1,6 @@
+# ninja log v5
+7	879	634482752	CMakeFiles/native-lib.dir/opencv-utils.cpp.o	8415860ab45311ee
+1	911	634482752	CMakeFiles/native-lib.dir/native-lib.cpp.o	dad5e4c4355b169d
+911	2493	634482754	E:/senza_resize_input/NeoMap/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	22d668c0c6360b2d
+10	866	635734212	CMakeFiles/native-lib.dir/native-lib.cpp.o	dad5e4c4355b169d
+867	2618	635734214	E:/senza_resize_input/NeoMap/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	22d668c0c6360b2d

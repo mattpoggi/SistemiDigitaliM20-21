@@ -1,0 +1,2 @@
+ninja: Entering directory `E:\senza_resize_input\NeoMap\app\.cxx\cmake\debug\armeabi-v7a'
+ninja: no work to do.

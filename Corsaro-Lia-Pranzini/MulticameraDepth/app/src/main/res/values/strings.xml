@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Multicamera</string>
+    <string name="take_pic_btn_label">Take photos</string>
+    <string name="front_picture">Front Camera Picture</string>
+    <string name="back_picture">Back Camera Picture</string>
+    <string name="base_dir">/MultiCameraDepth</string>
+</resources>

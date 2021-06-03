@@ -1,0 +1,6 @@
+# ninja log v5
+0	923	634482750	CMakeFiles/native-lib.dir/opencv-utils.cpp.o	90bcc5c7a6916f9
+9	937	634482750	CMakeFiles/native-lib.dir/native-lib.cpp.o	2ce09bb489dffcfc
+937	2100	634482751	E:/senza_resize_input/NeoMap/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	c99a921654d93e62
+7	1098	635734210	CMakeFiles/native-lib.dir/native-lib.cpp.o	2ce09bb489dffcfc
+1098	2454	635734211	E:/senza_resize_input/NeoMap/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	c99a921654d93e62
