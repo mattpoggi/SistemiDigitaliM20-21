@@ -1,0 +1,3 @@
+rootProject.name='Image Classification demo'
+include ':app'
+include ':OpenCVLibrary451'
